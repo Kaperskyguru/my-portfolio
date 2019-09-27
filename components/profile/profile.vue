@@ -8,12 +8,15 @@
             <h5 class="name">Solomon Eseme</h5>
             <p class="job">Software engineer, web developer, devops engineer</p>
             <div class="cover">
-              <p
-                class="summary"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis asperiores ipsum soluta dolores officiis laborum voluptatum impedit nam fuga, fugit corrupti laudantium totam autem, sed incidunt sint ullam necessitatibus delectus.</p>
+              <p class="summary">
+                I'm Solomon Eseme, a proficient software engineer specializing in back-end development, I have more than 4
+                years professional experience in software development, freelancing and instructing, with my level of
+                experience and expertise, I'll love to join your team to learn more and contribute my quota to the growth and
+                development of your organization.
+              </p>
             </div>
             <div class="text-center">
-              <b-button href="#" size="lg" class="m-1 btn-rd btn-resume">
+              <b-button href="/pdf/MyNewCV.pdf" size="lg" class="m-1 btn-rd btn-resume">
                 <fa :icon="['fas', 'briefcase']" />
                 <span>My Resume</span>
               </b-button>
@@ -35,16 +38,16 @@
           </div>
           <div class="skillset m-5">
             <small class="skill">PHP</small>
-            <small class="percent">70%</small>
+            <small class="percent">90%</small>
             <b-progress :max="100">
-              <b-progress-bar :value="70" variant="success"></b-progress-bar>
+              <b-progress-bar :value="90" variant="success"></b-progress-bar>
             </b-progress>
           </div>
           <div class="skillset m-5">
             <small class="skill">JavaScript</small>
-            <small class="percent">70%</small>
+            <small class="percent">80%</small>
             <b-progress :max="100">
-              <b-progress-bar :value="70" variant="success"></b-progress-bar>
+              <b-progress-bar :value="80" variant="success"></b-progress-bar>
             </b-progress>
           </div>
           <div class="skillset m-5">
@@ -56,9 +59,9 @@
           </div>
           <div class="skillset m-5">
             <small class="skill">DevOps</small>
-            <small class="percent">70%</small>
+            <small class="percent">50%</small>
             <b-progress :max="100">
-              <b-progress-bar :value="70" variant="success"></b-progress-bar>
+              <b-progress-bar :value="50" variant="success"></b-progress-bar>
             </b-progress>
           </div>
         </b-col>

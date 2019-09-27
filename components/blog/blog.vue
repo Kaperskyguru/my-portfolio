@@ -7,13 +7,13 @@
 
     <article class="mt-3">
       <b-row class="blog">
-        <b-col md="4" class>
-          <div class="shadow">
+        <b-col md="4">
+          <div class="shadow mb-4">
             <div class="blog-img-cover">
-              <img src="~/assets/images/laravel.png" alt class="blog-img" />
+              <img src="~/assets/images/laravel.png" alt class="img-fluid" />
             </div>
 
-            <h5 class="title">This is my first post title</h5>
+            <h5 class="title">Multiple role-based authentication in Laravel</h5>
             <p
               class="summary"
             >I will show you how to implement multiple role-based authentication in Laravel even if you have many different users and multiple…</p>
@@ -21,10 +21,10 @@
             <span class="date">Published on 12 Dec, 2019</span>
           </div>
         </b-col>
-        <b-col md="4" class>
-          <div class="shadow">
+        <b-col md="4">
+          <div class="shadow mb-4">
             <div class="blog-img-cover">
-              <img src="~/assets/images/software.png" alt class="blog-img" />
+              <img src="~/assets/images/software.png" alt class="img-fluid" />
             </div>
             <h5 class="title">Getting started with software engineering</h5>
             <p
@@ -35,10 +35,24 @@
           </div>
         </b-col>
 
-        <b-col md="4" class>
-          <div class="shadow">
+        <b-col md="4">
+          <div class="shadow mb-4">
             <div class="blog-img-cover">
-              <img src="~/assets/images/vuejs.png" alt class="blog-img" />
+              <img src="~/assets/images/vuejs.png" alt class="img-fluid" />
+            </div>
+            <h5 class="title">Real time chat app with Vuejs, Nodejs and Socket.io</h5>
+            <p
+              class="summary"
+            >In this article, I will be showing you how I build a real time chat app with VUEJS, NODEJS and EXPRESS and SOCKET.IO.</p>
+            <hr />
+            <span class="date">Published on 12 Dec, 2019</span>
+          </div>
+        </b-col>
+
+        <b-col md="4">
+          <div class="shadow mb-4">
+            <div class="blog-img-cover">
+              <img src="~/assets/images/vuejs.png" alt class="img-fluid" />
             </div>
             <h5 class="title">This is my first post title</h5>
             <p
@@ -49,10 +63,10 @@
           </div>
         </b-col>
 
-        <b-col md="4" class>
-          <div class="shadow">
+        <b-col md="4">
+          <div class="shadow mb-4">
             <div class="blog-img-cover">
-              <img src="~/assets/images/vuejs.png" alt class="blog-img" />
+              <img src="~/assets/images/vuejs.png" alt class="img-fluid" />
             </div>
             <h5 class="title">This is my first post title</h5>
             <p
@@ -63,24 +77,10 @@
           </div>
         </b-col>
 
-        <b-col md="4" class>
-          <div class="shadow">
+        <b-col md="4">
+          <div class="shadow mb-4">
             <div class="blog-img-cover">
-              <img src="~/assets/images/vuejs.png" alt class="blog-img" />
-            </div>
-            <h5 class="title">This is my first post title</h5>
-            <p
-              class="summary"
-            >In this article, I will be showing you how I build a real time chat app with VUEJS, NODEJS and EXPRESS and SOCKET.IO.</p>
-            <hr />
-            <span class="date">Published on 12 Dec, 2019</span>
-          </div>
-        </b-col>
-
-        <b-col md="4" class>
-          <div class="shadow">
-            <div class="blog-img-cover">
-              <img src="~/assets/images/vuejs.png" alt class="blog-img" />
+              <img src="~/assets/images/vuejs.png" alt class="img-fluid" />
             </div>
             <h5 class="title">This is my first post title</h5>
             <p
@@ -103,10 +103,6 @@
   margin: 0 auto;
 }
 
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
 
 .title {
   color: #18b898;
@@ -137,6 +133,5 @@ hr {
   font-weight: 700 !important;
   background-color: transparent;
   text-align: center !important;
-  margin-top: 40px;
 }
 </style>

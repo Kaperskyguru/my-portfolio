@@ -9,7 +9,12 @@
             <img src="~/assets/images/avatar2.jpg" class="profile-img" alt="Me" srcset />
           </b-col>
           <b-col cols="9">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam repellendus perspiciatis ipsum consequatur asperiores libero dolorem facere nostrum itaque? Eligendi, earum magni culpa vero debitis obcaecati similique excepturi doloribus?</p>
+            <p>
+              I'm Solomon Eseme, a proficient software engineer specializing in back-end development, I have more than 4
+              years professional experience in software development, freelancing and instructing, with my level of
+              experience and expertise, I'll love to join your team to learn more and contribute my quota to the growth and
+              development of your organization.
+            </p>
 
             <a href="http://facebook.com/solomon.eseme" class="social">
               <fa :icon="['fab', 'facebook']" class="ml-1 mr-2"></fa>
