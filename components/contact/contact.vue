@@ -4,7 +4,7 @@
     <p
       class="summary"
     >Let me handle your next project at an affordable price and a reasonable timeline.</p>
-    <b-button href="#" size="lg" squared class="m-1" variant="outline-light">
+    <b-button href="mailto:solomoneseme@fmail.com" size="lg" squared class="m-1" variant="outline-light">
       <i></i>
       CONTACT ME TODAY
     </b-button>

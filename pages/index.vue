@@ -4,6 +4,7 @@
 
     <Intro />
     <b-container>
+      <div id="about"></div>
       <Services />
 
       <Projects />

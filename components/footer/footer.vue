@@ -10,10 +10,9 @@
           </b-col>
           <b-col cols="9">
             <p>
-              I'm Solomon Eseme, a proficient software engineer specializing in back-end development, I have more than 4
-              years professional experience in software development, freelancing and instructing, with my level of
-              experience and expertise, I'll love to join your team to learn more and contribute my quota to the growth and
-              development of your organization.
+              I’m Solomon Eseme. I’m a full stack backend (web | Mobile | Desktop) developer living in Lagos, Nigeria.
+              I am a fan of programming, technology, and web development.
+              I’m also interested in education and entrepreneurship.
             </p>
 
             <a href="http://facebook.com/solomon.eseme" class="social">
@@ -28,7 +27,7 @@
             <a href="http://instagram.com/kaperskyguru" class="social">
               <fa :icon="['fab', 'instagram']" class="ml-1 mr-2"></fa>
             </a>
-            <a href="mailto:hello@solomoneseme.com" class="social">
+            <a href="mailto:solomoneseme@gmail.com" class="social">
               <fa :icon="['fas', 'envelope']" class="ml-1 mr-2"></fa>
             </a>
             <a href="http://wa.me/+2348145655380" class="social">
