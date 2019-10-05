@@ -22,6 +22,10 @@ export default {
       rel: 'icon',
       type: 'image/x-icon',
       href: '/favicon.ico'
+    }, {
+      rel: 'stylesheet',
+      href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+      type: 'text/css'
     }],
     script: [{
       src: 'https://use.fontawesome.com/83c28632f3.js'

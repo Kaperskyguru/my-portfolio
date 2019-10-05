@@ -23,7 +23,7 @@
   overflow: hidden;
   position: relative;
   background-size: cover;
-  background: url("~assets/images/main.jpg") top center;
+  background: url("~assets/images/main.jpg") center center;
 }
 .greeting {
   font-family: Roboto;
@@ -67,17 +67,6 @@ export default {
 
   methods: {
     typingAnimation() {
-      // const titles = this.title.split(",");
-      // var options = {
-      //   strings: [...titles],
-      //   typedSpeed: 0,
-      //   backSpeed: 0,
-      //   loop: true,
-      //   // backDelay: 500,
-      //   // startDelay: 100
-      //   smartBackspace: true
-      // };
-      // var typed = new Typed(".title", options);
 
       const words = this.title;
       let i = 0;
@@ -85,7 +74,6 @@ export default {
 
       function typingEffect() {
         let word = words[i].split("");
-        // console.log(word);
 
         var loopTyping = function() {
           if (word.length > 0) {

@@ -9,7 +9,11 @@
             <img src="~/assets/images/avatar2.jpg" class="profile-img" alt="Me" srcset />
           </b-col>
           <b-col cols="9">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam repellendus perspiciatis ipsum consequatur asperiores libero dolorem facere nostrum itaque? Eligendi, earum magni culpa vero debitis obcaecati similique excepturi doloribus?</p>
+            <p>
+              I’m Solomon Eseme. I’m a full stack backend (web | Mobile | Desktop) developer living in Lagos, Nigeria.
+              I am a fan of programming, technology, and web development.
+              I’m also interested in education and entrepreneurship.
+            </p>
 
             <a href="http://facebook.com/solomon.eseme" class="social">
               <fa :icon="['fab', 'facebook']" class="ml-1 mr-2"></fa>
@@ -23,7 +27,7 @@
             <a href="http://instagram.com/kaperskyguru" class="social">
               <fa :icon="['fab', 'instagram']" class="ml-1 mr-2"></fa>
             </a>
-            <a href="mailto:hello@solomoneseme.com" class="social">
+            <a href="mailto:solomoneseme@gmail.com" class="social">
               <fa :icon="['fas', 'envelope']" class="ml-1 mr-2"></fa>
             </a>
             <a href="http://wa.me/+2348145655380" class="social">

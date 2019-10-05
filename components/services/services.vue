@@ -4,44 +4,36 @@
     <div class="text-line"></div>
     <b-row class="text-center">
       <b-col class="mb-2">
-        <!-- <span class="icon-stack text-primary fa-3x"> -->
-        <!-- <i class="fas fa-circle fa-stack-2x"></i>
-          <i class="fas fa-image fa-stack-1x fa-inverse"></i>
-        </span>-->
-        <fa :icon="['fas', 'laptop']" :mask="['fas', 'circle']" class="fa-5x fa-stack" />
-        <h2 class="title">Software Engineer</h2>
+        <fa :icon="['fas', 'laptop']" :mask="['fas', 'circle']"  class="icon-color fa-5x fa-stack"/>
+        <h2 class="title">Software Development Consultant</h2>
+        <p
+          class="summary"
+        >I offer sofware development consultancy services.</p>
+      </b-col>
+      <b-col class="mb-2">
+        <fa :icon="['fas', 'code']" :mask="['fas', 'circle']" :class="text-primary" class="icon-color fa-5x fa-stack" />
+        <h2 class="title">Web Development</h2>
         <p class="summary">
           I will build you a stunning, user-friendly,
           robost and super responsive website to
-          automate your business
+          automate your business.
         </p>
       </b-col>
       <b-col class="mb-2">
-        <fa :icon="['fas', 'image']" :mask="['fas', 'circle']" class="fa-5x fa-stack" />
-        <h2 class="title">Web Engineer</h2>
+        <fa :icon="['fas', 'phone']" :mask="['fas', 'circle']" class="icon-color fa-5x fa-stack" />
+        <h2 class="title">Mobile Development</h2>
         <p class="summary">
-          I will build you a stunning, user-friendly,
-          robost and super responsive website to
-          automate your business
+          I will build you a  user-friendly,
+          robost and super fast Mobile Application to
+          automate your business.
         </p>
       </b-col>
       <b-col class="mb-2">
-        <fa :icon="['fas', 'phone']" :mask="['fas', 'circle']" class="fa-5x fa-stack" />
-        <h2 class="title">Mobile Engineer</h2>
-        <p class="summary">
-          I will build you a stunning, user-friendly,
-          robost and super responsive website to
-          automate your business
-        </p>
-      </b-col>
-      <b-col class="mb-2">
-        <fa :icon="['fas', 'image']" :mask="['fas', 'circle']" class="fa-5x fa-stack" />
-        <h2 class="title">DevOps Engineer</h2>
-        <p class="summary">
-          I will build you a stunning, user-friendly,
-          robost and super responsive website to
-          automate your business
-        </p>
+        <fa :icon="['fas', 'home']" :mask="['fas', 'circle']" class="icon-color fa-5x fa-stack" />
+        <h2 class="title">Content/Digital Marketing</h2>
+        <p
+          class="summary"
+        >I will create audience engaging and thriving contents and also use my digital marketing skills to drive traffic to your business.</p>
       </b-col>
     </b-row>
     <br />
@@ -92,5 +84,10 @@ export default {
   line-height: 2em;
   vertical-align: middle;
   width: 2.5em;
+}
+
+.icon-color{
+  /* background:#18b898; */
+  color:#18b898;
 }
 </style>
