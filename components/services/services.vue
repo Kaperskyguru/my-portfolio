@@ -1,17 +1,21 @@
 <template>
   <b-col class="mt-2">
     <h3 class="text-center my-service-text">MY SERVICES</h3>
-    <div class="text-line"></div>
+    <div class="text-line mb-5"></div>
     <b-row class="text-center">
       <b-col class="mb-2">
-        <fa :icon="['fas', 'laptop']" :mask="['fas', 'circle']"  class="icon-color fa-5x fa-stack"/>
+        <span class="fa-stack icon-color fa-2x mb-2">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+        </span>
         <h2 class="title">Software Development Consultant</h2>
-        <p
-          class="summary"
-        >I offer sofware development consultancy services.</p>
+        <p class="summary">I offer sofware development consultancy services.</p>
       </b-col>
       <b-col class="mb-2">
-        <fa :icon="['fas', 'code']" :mask="['fas', 'circle']" :class="text-primary" class="icon-color fa-5x fa-stack" />
+        <span class="fa-stack icon-color fa-2x mb-2">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+        </span>
         <h2 class="title">Web Development</h2>
         <p class="summary">
           I will build you a stunning, user-friendly,
@@ -20,16 +24,22 @@
         </p>
       </b-col>
       <b-col class="mb-2">
-        <fa :icon="['fas', 'phone']" :mask="['fas', 'circle']" class="icon-color fa-5x fa-stack" />
+        <span class="fa-stack icon-color fa-2x mb-2">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+        </span>
         <h2 class="title">Mobile Development</h2>
         <p class="summary">
-          I will build you a  user-friendly,
+          I will build you a user-friendly,
           robost and super fast Mobile Application to
           automate your business.
         </p>
       </b-col>
       <b-col class="mb-2">
-        <fa :icon="['fas', 'home']" :mask="['fas', 'circle']" class="icon-color fa-5x fa-stack" />
+        <span class="fa-stack icon-color fa-2x mb-2">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-home fa-stack-1x fa-inverse"></i>
+        </span>
         <h2 class="title">Content/Digital Marketing</h2>
         <p
           class="summary"
@@ -86,8 +96,7 @@ export default {
   width: 2.5em;
 }
 
-.icon-color{
-  /* background:#18b898; */
-  color:#18b898;
+.icon-color {
+  color: #18b898;
 }
 </style>

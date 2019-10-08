@@ -24,7 +24,7 @@ export default {
       href: '/favicon.ico'
     }, {
       rel: 'stylesheet',
-      href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+      href: 'css/all.css',
       type: 'text/css'
     }],
     script: [{
@@ -44,7 +44,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    // '~/css/all.css',
+  ],
   /*
    ** Plugins to load before mounting the App
    */

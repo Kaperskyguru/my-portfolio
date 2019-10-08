@@ -37,4 +37,13 @@ section {
 .text-center {
   text-align: center !important;
 }
+
 </style>
+
+<script>
+export default {
+  
+}
+
+
+</script>
