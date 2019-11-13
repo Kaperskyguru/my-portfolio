@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name || 'My Portfolio',
     meta: [{
         charset: 'utf-8'
       },
@@ -22,6 +22,10 @@ export default {
       rel: 'icon',
       type: 'image/x-icon',
       href: '/favicon.ico'
+    }, {
+      rel: 'stylesheet',
+      href: 'css/all.css',
+      type: 'text/css'
     }],
     script: [{
       src: 'https://use.fontawesome.com/83c28632f3.js'
@@ -40,7 +44,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    // '~/css/all.css',
+  ],
   /*
    ** Plugins to load before mounting the App
    */

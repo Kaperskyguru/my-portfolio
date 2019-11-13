@@ -9,10 +9,12 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-item :to="{name:'index'}" v-bind:active="true" class="my-nav-item">HOME</b-nav-item>
-          <b-nav-item :to="{name:'about'}" class="my-nav-item">ABOUT</b-nav-item>
-          <b-nav-item :to="{name:'projects'}" class="my-nav-item">PROJECTS</b-nav-item>
-          <b-nav-item :to="{name:'blog'}" class="my-nav-item">BLOG</b-nav-item>
-          <b-nav-item :to="{name:'contact'}" class="my-nav-item">CONTACT</b-nav-item>
+          <b-nav-item class="my-nav-item">
+            <a href="#about">ABOUT</a>
+          </b-nav-item>
+          <b-nav-item class="my-nav-item">PROJECTS</b-nav-item>
+          <b-nav-item class="my-nav-item">BLOG</b-nav-item>
+          <b-nav-item class="my-nav-item">CONTACT</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </div>
