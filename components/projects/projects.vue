@@ -9,18 +9,19 @@
       <b-col md="4">
         <div class="shadow mb-4">
           <div class="image-container">
-            <a href="#">
+            <a target="_blank" href="https://haypko.herokuapp.com/">
               <img src="~/assets/images/haykpo.png" alt srcset />
             </a>
           </div>
           <div class="project-title mt-3 text-center">
-            <h4><a href="#">Haypko</a></h4>
+            <h4><a target="_blank" href="https://haypko.herokuapp.com/">Haypko</a></h4>
+            <small class="text-muted">Tech Stack: <em>MySQL,  Vanilla PHP, JS, HTML, CSS </em> </small>
             <p>
               This is an fuel retailing website developed
               with Vanilla PHP.
             </p>
             <span class="github">
-              <a href="https://github.com/Kaperskyguru/Haypko">
+              <a target="_blank" href="https://github.com/Kaperskyguru/Haypko">
                 <fa :icon="['fab', 'github']" class="fa-2x fa-stack" />
               </a>
             </span>
@@ -31,17 +32,18 @@
       <b-col md="4">
         <div class="shadow mb-4">
           <div class="image-container">
-            <a href="https://iplayfootball.org">
+            <a target="_blank" href="https://iplayfootball.org">
               <img src="~/assets/images/iplayfootball.png" alt srcset />
             </a>
           </div>
           <div class="project-title mt-3 text-center">
             <h4>
-              <a href="https://iplayfootball.org">Iplayfootball</a>
+              <a target="_blank" href="https://iplayfootball.org">Iplayfootball</a>
             </h4>
+            <small class="text-muted">Tech Stack: <em>MySQL, Laravel,  PHP, Blade Templating </em> </small>
             <p>This is a players’ management website developed with Laravel.</p>
             <span class="github">
-              <a href="https://github.com/Kaperskyguru/iplayfootball">
+              <a target="_blank" href="https://github.com/Kaperskyguru/iplayfootball">
                 <fa :icon="['fab', 'github']" class="fa-2x fa-stack" />
               </a>
             </span>
@@ -52,20 +54,21 @@
       <b-col md="4">
         <div class="shadow mb-4">
           <div class="image-container">
-            <a href="https://rischoola.com.ng">
+            <a target="_blank" href="http://rischoola.com.ng">
               <img src="~/assets/images/rischoola.png" alt srcset />
             </a>
           </div>
           <div class="project-title mt-3 text-center">
             <h4>
-              <a href="https://rischoola.com.ng">Rischoola</a>
+              <a target="_blank" href="http://rischoola.com.ng">Rischoola</a>
             </h4>
+            <small class="text-muted">Tech Stack: <em>MySQL, Vanilla PHP,  HTML, JS, CSS</em> </small>
             <p>
               This is a students and schoolers website developed
               with vanilla PHP.
             </p>
             <span class="github">
-              <a href="https://github.com/Kaperskyguru/rischoola.com.ng">
+              <a target="_blank" href="https://github.com/Kaperskyguru/rischoola.com.ng">
                 <fa :icon="['fab', 'github']" class="fa-2x fa-stack" />
               </a>
             </span>
@@ -76,18 +79,19 @@
       <b-col md="4">
         <div class="shadow mb-4">
           <div class="image-container">
-            <a href="#">
+            <a target="_blank" href="#">
               <img src="~/assets/images/haykpo_dashboard.png" alt srcset />
             </a>
           </div>
           <div class="project-title mt-3 text-center">
-            <h4><a href="#">Haypko Dashboard</a></h4>
+            <h4><a target="_blank" href="#">Haypko Dashboard</a></h4>
+            <small class="text-muted">Tech Stack: <em>MySQL, Vanilla PHP,  HTML, JS, CSS</em> </small>
             <p>
               This is the dashboard of the fuel retailing website developed
               with Vanilla PHP.
             </p>
             <span class="github">
-              <a href="https://github.com/Kaperskyguru/Haypko">
+              <a target="_blank" href="https://github.com/Kaperskyguru/Haypko">
                 <fa :icon="['fab', 'github']" class="fa-2x fa-stack" />
               </a>
             </span>
@@ -98,18 +102,19 @@
       <b-col md="4">
         <div class="shadow mb-4">
           <div class="image-container">
-            <a href="#">
+            <a target="_blank" href="https://iplayfootball.org/docsmanaga/">
               <img src="~/assets/images/dboard.png" alt srcset />
             </a>
           </div>
           <div class="project-title mt-3 text-center">
-            <h4><a href="#">DocsManaga</a></h4>
+            <h4><a target="_blank" href="https://iplayfootball.org/docsmanaga/">DocsManaga</a></h4>
+            <small class="text-muted">Tech Stack: <em>MySQL, PHP, Laravel, Blade Templating Engine</em> </small>
             <p>
               This is an document management website developed
               with Laravel.
             </p>
             <span class="github" style="text-align:left">
-              <a href="https://github.com/Kaperskyguru/DocsManaga">
+              <a target="_blank" href="https://github.com/Kaperskyguru/DocsManaga">
                 <fa :icon="['fab', 'github']" class="fa-2x fa-stack" />
               </a>
             </span>
@@ -120,18 +125,19 @@
       <b-col md="4">
         <div class="shadow mb-4">
           <div class="image-container">
-            <a href="#">
+            <a target="_blank" href="#">
               <img src="~/assets/images/electro.png" alt srcset />
             </a>
           </div>
           <div class="project-title mt-3 text-center p-2">
             <h4>Electro e-commerce website</h4>
+            <small class="text-muted">Tech Stack: <em>MySQL, Expressjs, Vuejs, NodeJS</em> </small>
             <p>
               This is an electronic e-commerce website developed
               with MEVN stack.
             </p>
             <span class="github">
-              <a href="https://github.com/Kaperskyguru/ecommerce_mevn_front">
+              <a target="_blank" href="https://github.com/Kaperskyguru/ecommerce_mevn_front">
                 <fa :icon="['fab', 'github']" class="fa-2x fa-stack" />
               </a>
             </span>

@@ -41,7 +41,7 @@
 
         <b-col md="4">
           <div class="shadow mb-4">
-            <a
+            <a target="blank"
               href="https://medium.com/js-dojo/build-a-real-time-chat-app-with-vuejs-socket-io-and-nodejs-714c8eefa54e"
             >
               <div class="blog-img-cover">
