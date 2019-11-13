@@ -1,6 +1,6 @@
-# nuxt-fundamentals
+# Solomon Eseme Portfolio
 
-> My super-excellent Nuxt.js project
+> My super-excellent Porfolio project built with NUXT.js
 
 ## Build Setup
 
@@ -18,6 +18,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-# my-portfolio
