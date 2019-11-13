@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || 'My Portfolio',
+    title: 'Solomon Eseme (kaperskyguru) Software Engineer, Backend Engineer, DevOps Engineer',
     meta: [{
         charset: 'utf-8'
       },
@@ -15,7 +15,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: 'I\'m Solomon Eseme, a proficient software engineer specializing in back-end development, I have more than 4 years professional experience in software development, freelancing and instructing, with my level of experience and expertise, I\'ll love to join your team to learn more and contribute my quota to the growth and development of your organization.'
       }
     ],
     link: [{
