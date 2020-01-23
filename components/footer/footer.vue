@@ -15,7 +15,7 @@
           </b-col>
           <b-col cols="9">
             <p>
-              I’m Solomon Eseme. I’m a Software developer living Nigeria. I am a
+              I’m Solomon Eseme. I’m a Software developer from Nigeria. I am a
               fan of programming, technology, and web development. I’m also
               interested in education and entrepreneurship.
             </p>
