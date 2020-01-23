@@ -59,6 +59,10 @@ export default {
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
+.navbar-dark.scrolled .navbar-toggler {
+  background: #000;
+}
+
 .navbar-dark.scrolled .my-nav-item a {
   color: #000 !important;
 }
