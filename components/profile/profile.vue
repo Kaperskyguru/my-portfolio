@@ -148,7 +148,7 @@
 }
 .profile-img {
   width: 30%;
-  border-radius: 100% !important;
+  border-radius: 50% !important;
 }
 .profile {
   background: #ffffff;
