@@ -4,15 +4,23 @@
       <b-row>
         <b-col>
           <div class="text-center">
-            <img src="~/assets/images/profile.jpg" class="profile-img" alt="Me" />
+            <img
+              src="~/assets/images/profile.jpg"
+              class="profile-img"
+              alt="Me"
+            />
             <h5 class="name">Solomon Eseme</h5>
-            <p class="job">Software engineer, Backend Engineer, DevOps Engineer</p>
+            <p class="job">
+              Software engineer, Backend Engineer, DevOps Engineer
+            </p>
             <div class="cover">
               <p class="summary">
-                I'm Solomon Eseme, a proficient software engineer specializing in back-end development, I have more than 4
-                years professional experience in software development, freelancing and instructing, with my level of
-                experience and expertise, I'll love to join your team to learn more and contribute my quota to the growth and
-                development of your organization.
+                I'm Solomon Eseme, a proficient software engineer specializing
+                in back-end development, I have more than 4 years professional
+                experience in software development, freelancing and instructing,
+                with my level of experience and expertise, I'll love to join
+                your team to learn more and contribute my quota to the growth
+                and development of your organization.
               </p>
             </div>
             <div style="text-align:left">
@@ -20,13 +28,15 @@
               <ol class="awards">
                 <li>
                   Runs a
-                  <a href="http://bit.ly/multimegaschool">youtube channel</a> with more than
-                  1.2k subscribers and growing.
+                  <a href="http://bit.ly/multimegaschool">youtube channel</a>
+                  with more than 1.2k subscribers and growing.
                 </li>
                 <li>
                   Technical writer at
                   <a href="https://medium.com/js-dojo">Vuejs Developers</a> and
-                  <a href="https://medium.com/backenders-club">Backenders Club.</a>
+                  <a href="https://medium.com/backenders-club"
+                    >Backenders Club.</a
+                  >
                 </li>
                 <li>
                   Creator of
@@ -53,21 +63,25 @@
             </b-progress>
           </div>
           <div class="skillset m-5">
-            <small class="skill">JAVASCRIPT -> Nodejs, Expresjs, VueJS, NestJS, Nuxtjs</small>
+            <small class="skill"
+              >JAVASCRIPT -> Nodejs, Expresjs, VueJS, NestJS, Nuxtjs</small
+            >
             <small class="percent">80%</small>
             <b-progress :max="100">
               <b-progress-bar :value="80" variant="success"></b-progress-bar>
             </b-progress>
           </div>
           <div class="skillset m-5">
-            <small class="skill">Mobile -> Android, Flutter</small>
+            <small class="skill">Mobile -> Android Java</small>
             <small class="percent">40%</small>
             <b-progress :max="100">
               <b-progress-bar :value="40" variant="success"></b-progress-bar>
             </b-progress>
           </div>
           <div class="skillset m-5">
-            <small class="skill">DevOps -> Docker, Git, Linux, Jira, PivotalTracker, etc</small>
+            <small class="skill"
+              >DevOps -> Docker, Git, Linux, Jira, PivotalTracker, etc</small
+            >
             <small class="percent">50%</small>
             <b-progress :max="100">
               <b-progress-bar :value="50" variant="success"></b-progress-bar>
@@ -85,11 +99,19 @@
       <b-row>
         <b-col>
           <div class="text-center">
-            <b-button href="/pdf/MyNewCV.pdf" size="lg" class="m-1 btn-rd btn-resume">
+            <b-button
+              href="/pdf/MyNewCV.pdf"
+              size="lg"
+              class="m-1 btn-rd btn-resume"
+            >
               <fa :icon="['fas', 'briefcase']" />
               <span>My Resume</span>
             </b-button>
-            <b-button href="mailto:solomoneseme@fmail.com" size="lg" class="m-1 btn-rd btn-contact">
+            <b-button
+              href="mailto:solomoneseme@fmail.com"
+              size="lg"
+              class="m-1 btn-rd btn-contact"
+            >
               <fa :icon="['fas', 'envelope']" />
               <span>Contact me</span>
             </b-button>

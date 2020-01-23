@@ -1,5 +1,9 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" class="my-navbar navbar-reduce navbar-b fixed-top">
+  <b-navbar
+    toggleable="lg"
+    type="dark"
+    class="my-navbar navbar-reduce navbar-b fixed-top"
+  >
     <div class="container">
       <b-navbar-brand to="index">
         <img src="~/assets/images/logoglite (1).png" alt="Logo" srcset />
@@ -8,7 +12,12 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item :to="{name:'index'}" v-bind:active="true" class="my-nav-item">HOME</b-nav-item>
+          <b-nav-item
+            :to="{ name: 'index' }"
+            v-bind:active="true"
+            class="my-nav-item"
+            >HOME</b-nav-item
+          >
           <b-nav-item class="my-nav-item">
             <a href="#about">ABOUT</a>
           </b-nav-item>

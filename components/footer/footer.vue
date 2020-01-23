@@ -6,13 +6,18 @@
         <b-row>
           <b-col cols="3">
             <br />
-            <img src="~/assets/images/avatar2.jpg" class="profile-img" alt="Me" srcset />
+            <img
+              src="~/assets/images/avatar2.jpg"
+              class="profile-img"
+              alt="Me"
+              srcset
+            />
           </b-col>
           <b-col cols="9">
             <p>
-              I’m Solomon Eseme. I’m a full stack backend (web | Mobile | Desktop) developer living Nigeria.
-              I am a fan of programming, technology, and web development.
-              I’m also interested in education and entrepreneurship.
+              I’m Solomon Eseme. I’m a Software developer living Nigeria. I am a
+              fan of programming, technology, and web development. I’m also
+              interested in education and entrepreneurship.
             </p>
 
             <a href="http://facebook.com/solomon.eseme" class="social">
@@ -37,25 +42,31 @@
         </b-row>
       </b-col>
       <b-col md="4">
-        <h5>MY SKILLS</h5>
+        <h5>TOOLS I HAVE USED</h5>
         <p class="skill">
-          <strong>Web Engineer:</strong>
-          <span>PHP, Laravel, JavaScript, NodeJs, Express, CSS, HTML, Vuejs, etc</span>
+          <strong>Web Engineering:</strong>
+          <span
+            >PHP, Laravel, JavaScript, NodeJs, Express, CSS, HTML, Vuejs,
+            etc</span
+          >
         </p>
 
         <p class="skill">
-          <strong>Mobile Engineer:</strong>
-          <span>Android Java, Flutter, etc</span>
+          <strong>Mobile Engineering:</strong>
+          <span>Android Java, etc</span>
         </p>
 
         <p class="skill">
-          <strong>DevOps Engineer:</strong>
-          <span>Linux, Docker, jenkins, jira, heroku, aws, etc</span>
+          <strong>DevOps Engineering:</strong>
+          <span>Linux, Docker, jira, heroku, aws, etc</span>
         </p>
 
         <p class="skill">
           <strong>Others Skillset:</strong>
-          <span>Blogging, Youtube Creator, Drummer, Microsoft office Suite, SEO etc</span>
+          <span
+            >Blogging, Youtube Creator, Drummer, Microsoft office Suite, SEO
+            etc</span
+          >
         </p>
       </b-col>
       <b-col md="4">
@@ -72,7 +83,12 @@
       <p>&copy; Copyright Solomoneseme All right Reserved</p>
       <span>
         Designed with
-        <fa :icon="['fas', 'heart']" class="ml-1 mr-2" style="color:#18b898"></fa>by Solomon Eseme
+        <fa
+          :icon="['fas', 'heart']"
+          class="ml-1 mr-2"
+          style="color:#18b898"
+        ></fa
+        >by Solomon Eseme
       </span>
     </div>
   </footer>
