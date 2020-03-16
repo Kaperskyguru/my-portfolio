@@ -29,7 +29,7 @@
                 <li>
                   Runs a
                   <a href="http://bit.ly/multimegaschool">youtube channel</a>
-                  with more than 1.2k subscribers and growing.
+                  with more than 1.33k subscribers and growing.
                 </li>
                 <li>
                   Technical writer at
@@ -100,7 +100,7 @@
         <b-col>
           <div class="text-center">
             <b-button
-              href="/pdf/MyNewCV.pdf"
+              href="/pdf/MyUpdatedCV2020.pdf"
               size="lg"
               class="m-1 btn-rd btn-resume"
             >

@@ -16,11 +16,15 @@
                 <img src="~/assets/images/laravel.png" alt class="img-fluid" />
               </div>
 
-              <h5 class="title">Multiple role-based authentication in Laravel</h5>
+              <h5 class="title">
+                Multiple role-based authentication in Laravel
+              </h5>
             </a>
-            <p
-              class="summary"
-            >I will show you how to implement multiple role-based authentication in Laravel even if you have many different users and multiple…</p>
+            <p class="summary">
+              I will show you how to implement multiple role-based
+              authentication in Laravel even if you have many different users
+              and multiple…
+            </p>
           </div>
         </b-col>
         <b-col md="4">
@@ -33,25 +37,31 @@
               </div>
               <h5 class="title">Getting started with software engineering</h5>
             </a>
-            <p
-              class="summary"
-            >Every career in life has different patterns, structures, architectures and principles, Software engineering or development...</p>
+            <p class="summary">
+              Every career in life has different patterns, structures,
+              architectures and principles, Software engineering or
+              development...
+            </p>
           </div>
         </b-col>
 
         <b-col md="4">
           <div class="shadow mb-4">
-            <a target="blank"
+            <a
+              target="blank"
               href="https://medium.com/js-dojo/build-a-real-time-chat-app-with-vuejs-socket-io-and-nodejs-714c8eefa54e"
             >
               <div class="blog-img-cover">
                 <img src="~/assets/images/vuejs.png" alt class="img-fluid" />
               </div>
-              <h5 class="title">Real time chat app with Vuejs, Nodejs and Socket.io</h5>
+              <h5 class="title">
+                Real time chat app with Vuejs, Nodejs and Socket.io
+              </h5>
             </a>
-            <p
-              class="summary"
-            >In this article, I will be showing you how I build a real time chat app with VUEJS, NODEJS and EXPRESS and SOCKET.IO.</p>
+            <p class="summary">
+              In this article, I will be showing you how I build a real time
+              chat app with VUEJS, NODEJS and EXPRESS and SOCKET.IO.
+            </p>
           </div>
         </b-col>
         <!-- 
@@ -96,7 +106,8 @@
       href="https://medium.com/@Kaperskyguru"
       class="btn-see-all text-center"
       variant="outline-success"
-    >See All</b-button>
+      >See All</b-button
+    >
   </div>
 </template>
 <style scoped>
